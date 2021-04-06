@@ -1,0 +1,19 @@
+
+.section {
+    padding: 1rem 0;
+}
+
+.contact-info {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.address,
+.opening-hours {
+    width: 50%;
+}
+
+.map {
+    border-top: 3px dotted rgba(0,0,0,.2);
+}

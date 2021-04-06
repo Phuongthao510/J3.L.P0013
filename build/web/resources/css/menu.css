@@ -1,0 +1,43 @@
+.intro {
+    margin-top: 0;
+    border-top: 1px solid #dfe1e5;
+    padding: 0.5rem 0;
+}
+
+.text-right {
+    float:right;
+}
+
+.menu {
+    padding: 2rem 0;
+    border-bottom: 3px dotted rgba(0,0,0,.2);
+}
+
+.menu:last-child {
+    border-bottom: none;
+}
+
+#pagination {
+    text-align: right;
+}
+
+#pagination li {
+    display: inline-block;
+    padding: 0.5rem;
+}
+
+#pagination li a,
+#pagination li span {
+    color: #fff;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+}
+
+#pagination li a {
+    background-color: #e5e5e5;
+    text-decoration: none;
+}
+
+#pagination li span {
+    background-color: #00ff00; 
+}

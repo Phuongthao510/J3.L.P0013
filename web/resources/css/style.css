@@ -1,0 +1,135 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: #d5f46b url('../img/bg.png') repeat-x;
+    font-family: 'Times New Roman', Helvetica, Arial, sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 980px;
+    max-width: 100%;
+}
+
+header {
+    background-color: #535353;
+    color: #fff;
+}
+
+.site-info {
+    padding: 3rem 2rem;
+}
+
+.logo {
+    font-size: 4.7rem;
+    color: #d5f46b;
+}
+
+.subtitle {
+    font-size: 2.2rem;
+}
+
+.list-unstyled {
+    list-style: none;
+}
+
+.navigation {
+    background-color: #303030;
+    padding: 0.6rem 2rem;
+}
+
+.navigation li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.navigation li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.8rem;
+}
+
+.navigation li a:hover {
+    text-decoration: underline;
+}
+
+.page-body {
+    min-height: 50vh;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.main {
+    width: 75%;
+    padding: 2rem;
+}
+
+.right {
+    width: 25%;
+    padding: 1rem;
+}
+
+.box {
+    background-color: #fff; 
+    box-shadow: 0 2px 10px rgba(0,0,0,.2);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.box ul {
+    margin-top: 1.3rem;
+    line-height: 1.4;
+}
+
+.box li a {
+    color: #000;
+    font-size: 1.8rem;
+}
+
+footer {
+    background-color: #fff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: right;
+}
+
+.view-count {
+    border-top: 1px solid rgba(0,0,0,0.2);
+    padding: 3rem 0;
+    margin: 0 2rem;
+    font-size: 2rem;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.title {
+    font-size: 2.5rem;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold
+}
+
+.content {
+    margin-top: 1.5rem;
+    font-size: 1.8rem;
+    line-height: 2rem;
+}

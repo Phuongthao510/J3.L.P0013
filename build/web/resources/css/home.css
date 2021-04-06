@@ -1,0 +1,22 @@
+
+.post {
+    margin: 2rem 0;
+}
+
+.post-info {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.post-image {
+    width: 45%;
+    border-radius: 10px;
+}
+
+.post-info .content {
+    width: 55%;
+    padding-left: 2rem;
+    margin-top: 0;
+}
